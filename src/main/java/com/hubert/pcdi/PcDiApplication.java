@@ -1,13 +1,13 @@
-package com.hubert.petclinic;
+package com.hubert.pcdi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PetClinicApplication {
+public class PcDiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PetClinicApplication.class, args);
+		SpringApplication.run(PcDiApplication.class, args);
 	}
 
 }
