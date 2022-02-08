@@ -3,9 +3,9 @@ package com.hubert.pcdi.services;
 import org.springframework.stereotype.Service;
 
 @Service
-public class GreetingServiceImpl implements GreetingService {
+public class PropertyInjectedGreetingService implements GreetingService{
   @Override
   public String sayGreeting() {
-    return "HELLO WORLD!!!!! - Constructor";
+    return "HELLO WORLD!!!!! - Property}";
   }
 }
